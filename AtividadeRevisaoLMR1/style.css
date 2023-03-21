@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.nav{
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    height: 70px;
+}
+.nav .linkMenu{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav .hamburger{
+    display: none;
+}
+.part1 img{
+    margin-left: 10% ;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.part1 .texo{
+    font-display:flex;
+    justify-content: center;
+}
