@@ -1,0 +1,45 @@
+
+body {
+    background: aliceblue;
+}
+h2{
+    text-align: center;
+}  
+.conteiner1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:  200px;
+    height: 200px;
+    background-color: brown;
+    
+   
+  }
+  
+ .conteiner2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:  200px;
+    height: 200px;
+    background-color: yellow;
+    
+  }
+  
+  .conteiner3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:  200px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .conteiner4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:  200px;
+    height: 200px;
+    background-color: blue;
+  }
