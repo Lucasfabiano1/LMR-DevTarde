@@ -1,6 +1,8 @@
 body{
     background-color: black;
     margin: 0;
+    background-image: url(laptop-com-icone-de-codigo-isometrico-de-programa-desenvolvimento-de-software-e-aplicacoes-de-programacao-neon-escuro_39422-971.avif);
+    background-size: cover;
 }
 header{
     width: 100%;
@@ -26,7 +28,30 @@ header nav{
 .hamburger{
     display: none;
 }
-
+.p1{
+    
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 1px;
+}
+.p1 .titulo{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 60px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.titulo h2{
+    font-size: 40px;
+    color:red;
+}
+.titulo img{
+    width: 10%;
+}
 @media screen and (max-width: 768px){
     .hamburger{
         display: inline;
@@ -34,4 +59,5 @@ header nav{
     header nav{
         display:none;
     }
+
 }
