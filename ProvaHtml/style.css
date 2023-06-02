@@ -1,0 +1,4 @@
+.hero__media {
+    animation: fade-in-bg 1.5s cubic-bezier(.26,.54,.32,1) 0s forwards;
+    transition: none;
+}
