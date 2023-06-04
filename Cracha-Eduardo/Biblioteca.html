@@ -30,9 +30,15 @@
             <a class="nav-link" href="Cantina.html">Cantina</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2 bg-light" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" role="search" action="Cantina.html" action="Secretaria.html" action="Biblioteca.html" action="Home.html">
+          <input class="form-control me-2 bg-light" list="datalistOptions" type="search" placeholder="" aria-label="">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          <datalist id="datalistOptions">
+            <option value="Home">
+            <option value="Biblioteca">
+            <option value="Secretaria">
+            <option value="Cantina">
+          </datalist>
         </form>
       </div>
       </div>
